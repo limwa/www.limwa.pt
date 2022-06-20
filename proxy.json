@@ -1,0 +1,9 @@
+{
+  "Next.js Proxy": {
+    "source": 3000,
+    "target": 1234,
+    "cert": "certificates/limwa.test.pem",
+    "key": "certificates/limwa.test-key.pem",
+    "hostname": "limwa.test"
+  }
+}
