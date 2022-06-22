@@ -1,3 +1,5 @@
 {
-    "proseWrap": "always"
+    "proseWrap": "always",
+    "bracketSpacing": true,
+    "singleQuote": true
 }

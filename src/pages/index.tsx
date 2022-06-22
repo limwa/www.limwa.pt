@@ -1,8 +1,12 @@
-import type { NextPage } from "next";
-import Head from "next/head";
-import Image from "next/image";
+import type { NextPage } from 'next';
+import Head from 'next/head';
+import Image from 'next/image';
+
+import { useQuery } from '@/hooks/trpc';
 
 const Home: NextPage = () => {
+  const { data, isLoading } = useQuery(['hello', { text: 'world' }]);
+
   return (
     <div className="bg-red-500">
       <Head>
@@ -15,6 +19,8 @@ const Home: NextPage = () => {
         <h1>
           Welcome to <a href="https://nextjs.org">Next.js!</a>
         </h1>
+
+        <p>{data?.greeting}</p>
 
         <p>
           Get started by editing <code>pages/index.tsx</code>
@@ -51,7 +57,7 @@ const Home: NextPage = () => {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Powered by{" "}
+          Powered by{' '}
           <span>
             <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
           </span>
