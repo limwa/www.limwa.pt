@@ -9,10 +9,12 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
+    "postinstall": "prisma generate",
     "prepare": "husky install",
     "certificates": "mkcert -install && mkdir -p certificates && cd certificates && mkcert limwa.test"
   },
   "dependencies": {
+    "@prisma/client": "3.15.2",
     "@trpc/client": "^9.25.3",
     "@trpc/next": "^9.25.3",
     "@trpc/react": "^9.25.3",
