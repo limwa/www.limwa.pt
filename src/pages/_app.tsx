@@ -3,7 +3,7 @@ import { AppType } from 'next/dist/shared/lib/utils';
 import type { AppRouter } from '@/router';
 import superjson from 'superjson';
 
-import 'tailwindcss/tailwind.css';
+import '@/styles/globals.css';
 
 const MyApp: AppType = ({ Component, pageProps }) => {
   return <Component {...pageProps} />;
