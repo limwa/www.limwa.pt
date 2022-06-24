@@ -14,7 +14,6 @@
     "certificates": "mkcert -install && mkdir -p certificates && cd certificates && mkcert limwa.test"
   },
   "dependencies": {
-    "@ltd/j-toml": "^1.30.0",
     "@prisma/client": "3.15.2",
     "@trpc/client": "^9.25.3",
     "@trpc/next": "^9.25.3",
