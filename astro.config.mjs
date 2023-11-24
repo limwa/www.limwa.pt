@@ -6,7 +6,7 @@ import cloudflare from "@astrojs/cloudflare";
 
 // https://astro.build/config
 export default defineConfig({
-  site: "https://limwa.pt",
+  site: "https://www.limwa.pt",
 
   integrations: [solidJs(), tailwind()],
 
