@@ -18,7 +18,7 @@ const { title, description } = Astro.props;
 		<title>{title}</title>
 	</head>
 	<body class="min-h-screen flex flex-col bg-gradient-to-br from-slate-950 to-slate-800 text-slate-100">
-		<div class="flex-grow">
+		<div class="flex-grow grid grid-cols-1 grid-rows-1">
 			<slot />
 		</div>
 		<div>
