@@ -2,18 +2,22 @@
 import { Github, Linkedin, FileText } from "lucide-astro";
 import Layout from '@/layouts/Layout.astro';
 
-import limwaPicture from '@/assets/limwa.jpg';
+import limwaWebp from '@/assets/limwa.webp';
+import limwaJpg from '@/assets/limwa.jpg';
 ---
 
 <Layout
 	description="Hi, I'm André Lima, a curious and open-minded person who loves solving problems and learning new things."
 >
 	<main class="px-4 mx-auto max-w-2xl">
-		<img
-			class="rounded-full aspect-square max-w-lg w-full mx-auto mt-14" 
-			alt="Picture of André Lima"
-			{...limwaPicture}
-		/>
+		<picture>
+			<source type="image/webp" srcset={limwaWebp.src} />
+			<source type="image/jpeg" srcset={limwaJpg.src} />
+			<img {...limwaJpg}
+				alt="Picture of André Lima"
+				class="rounded-full aspect-square max-w-lg w-full mx-auto mt-14"
+			/>
+		</picture>
 		<div class="p-4 mt-12">
 			<h1 class="text-4xl font-bold">Hi, I&apos;m André Lima&nbsp;👋🏻</h1>
 			<p class="font-light leading-relaxed text-md mt-4">
