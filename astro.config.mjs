@@ -13,8 +13,15 @@ export default defineConfig({
   integrations: [
     solidJs(),
     tailwind(),
-    robotsTxt(),
-    sitemap()
+    sitemap(),
+    robotsTxt({
+      policy: [
+        {
+          userAgent: "*",
+          disallow: "/cdn-cgi/",
+        }
+      ]
+    }),
   ],
   
   output: "hybrid",
