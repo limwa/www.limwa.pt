@@ -13,9 +13,11 @@
   "dependencies": {
     "@astrojs/check": "^0.2.1",
     "@astrojs/cloudflare": "^7.7.1",
+    "@astrojs/sitemap": "^3.0.3",
     "@astrojs/solid-js": "^3.0.2",
     "@astrojs/tailwind": "^5.0.2",
     "astro": "^3.6.0",
+    "astro-robots-txt": "^1.0.0",
     "lucide-astro": "^0.292.0",
     "solid-js": "^1.8.6",
     "tailwindcss": "^3.3.5",
