@@ -2,7 +2,7 @@
 import { Github, Linkedin, FileText } from "lucide-astro";
 import Layout from '@/layouts/Layout.astro';
 
-import limwaPicture from '@/assets/limwa.jpeg';
+import limwaPicture from '@/assets/limwa.jpg';
 ---
 
 <Layout
@@ -11,9 +11,11 @@ import limwaPicture from '@/assets/limwa.jpeg';
 >
 	<main class="px-4 mx-auto max-w-2xl">
 		<img
-			class="rounded-full mx-auto mt-14" 
+			class="rounded-full aspect-square max-w-lg w-full mx-auto mt-14" 
 			alt="Picture of André Lima"
 			{...limwaPicture}
+			loading="lazy"
+			decoding="async"
 		/>
 		<div class="p-4 mt-12">
 			<h1 class="text-4xl font-bold">Hi, I&apos;m André Lima&nbsp;👋🏻</h1>
