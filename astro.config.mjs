@@ -18,8 +18,12 @@ export default defineConfig({
       policy: [
         {
           userAgent: "*",
-          disallow: "/cdn-cgi/",
-        }
+          allow: "/",
+          disallow: [
+            // Cloudflare-specific endpoints that should not be indexed
+            "/cdn-cgi/",
+          ]
+        },
       ]
     }),
   ],
