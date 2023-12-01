@@ -1,0 +1,15 @@
+.blue::selection, .blue ::selection {
+    @apply bg-blue-950;
+}
+
+.cyan::selection, .cyan ::selection {
+    @apply bg-cyan-950;
+}
+
+.red::selection, .red ::selection {
+    @apply bg-red-950;
+}
+
+.sky::selection, .sky ::selection {
+    @apply bg-sky-950;
+}
