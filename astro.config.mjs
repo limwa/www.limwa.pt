@@ -42,6 +42,9 @@ export default defineConfig({
   },
 
   redirects: {
-    "/cv.pdf": "/resume.pdf",
-  }
+    "/cv.pdf": {
+      status: 302,
+      destination: "/resume.pdf",
+    },
+  },
 });
