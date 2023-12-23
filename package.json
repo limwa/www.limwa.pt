@@ -11,19 +11,19 @@
     "deploy": "wrangler pages deploy ./dist"
   },
   "dependencies": {
-    "@astrojs/check": "^0.3.1",
+    "@astrojs/check": "^0.3.4",
     "@astrojs/cloudflare": "^8.0.0",
     "@astrojs/sitemap": "^3.0.3",
     "@astrojs/solid-js": "^3.0.2",
-    "@astrojs/tailwind": "^5.0.3",
-    "astro": "^4.0.3",
+    "@astrojs/tailwind": "^5.0.4",
+    "astro": "^4.0.7",
     "astro-robots-txt": "^1.0.0",
-    "lucide-astro": "^0.292.0",
+    "lucide-astro": "^0.300.0",
     "solid-js": "^1.8.7",
-    "tailwindcss": "^3.3.6",
+    "tailwindcss": "^3.4.0",
     "typescript": "^5.3.3"
   },
   "devDependencies": {
-    "wrangler": "^3.19.0"
+    "wrangler": "^3.22.1"
   }
 }
