@@ -33,10 +33,15 @@ export default defineConfig({
     runtime: {
       mode: "local",
       type: "pages",
-    }
+      
+    },
   }),
 
   image: {
     service: passthroughImageService()
+  },
+
+  redirects: {
+    "/cv.pdf": "/resume.pdf",
   }
 });
