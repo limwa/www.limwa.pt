@@ -8,7 +8,8 @@ export default {
 					...colors,
 					slate: {
 						...colors.slate,
-						"750": "#283548", // color-mix(in oklab, ${colors.slate["700"]}, ${colors.slate["800"]})
+                        // slate.750 = color-mix(in oklab, ${colors.slate["700"]}, ${colors.slate["800"]})
+						"750": "#283548",
 					}
 				};
 			}
