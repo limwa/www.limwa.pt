@@ -3,6 +3,16 @@ export default {
 	content: ['./src/**/*.{astro,html,js,jsx,md,mdx,svelte,ts,tsx,vue}'],
 	theme: {
 		extend: {
+			colors: ({ colors }) => {
+                return {
+					...colors,
+					slate: {
+						...colors.slate,
+                        // slate.750 = color-mix(in oklab, ${colors.slate["700"]}, ${colors.slate["800"]})
+						"750": "#283548",
+					}
+				};
+			}
 	// 		keyframes: {
 	// 			pulse: {
 	// 				"0%, 100%": {
