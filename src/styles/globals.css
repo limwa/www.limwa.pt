@@ -1,15 +1,3 @@
-.blue::selection, .blue ::selection {
-    @apply bg-slate-900;
-}
-
-.dark-blue::selection, .dark-blue ::selection {
-    @apply bg-slate-900;
-}
-
-.cyan::selection, .cyan ::selection {
-    @apply bg-slate-800;
-}
-
-.sky::selection, .sky ::selection {
-    @apply bg-slate-700;
+::selection {
+    @apply bg-slate-750;
 }

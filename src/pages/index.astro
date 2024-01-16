@@ -4,8 +4,6 @@ import Layout from '@/layouts/Layout.astro';
 
 import limwaWebp from '@/assets/limwa.webp';
 import limwaJpg from '@/assets/limwa.jpg';
-
-import '@/styles/globals.css';
 ---
 
 <Layout
@@ -17,7 +15,7 @@ import '@/styles/globals.css';
 			<source type="image/jpeg" srcset={limwaJpg.src} />
 			<img {...limwaJpg}
 				alt="André Lima"
-				class="rounded-full aspect-square max-w-lg w-full mx-auto mt-14"
+				class="select-none rounded-full aspect-square max-w-lg w-full mx-auto mt-14"
 			/>
 		</picture>
 		<div class="p-4 mt-12">
