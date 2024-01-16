@@ -3,12 +3,6 @@ export default {
 	content: ['./src/**/*.{astro,html,js,jsx,md,mdx,svelte,ts,tsx,vue}'],
 	theme: {
 		extend: {
-			minHeight: {
-				screen: [
-					'100vh', /* fallback for browsers that don't support `dvh` */
-					'100dvh',
-				]
-			}
 	// 		keyframes: {
 	// 			pulse: {
 	// 				"0%, 100%": {

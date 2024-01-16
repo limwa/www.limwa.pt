@@ -29,9 +29,22 @@ export default defineConfig({
   ],
   
   output: "hybrid",
-  adapter: cloudflare(),
+  adapter: cloudflare({
+    runtime: {
+      mode: "local",
+      type: "pages",
+      
+    },
+  }),
 
   image: {
     service: passthroughImageService()
-  }
+  },
+
+  redirects: {
+    "/CV.pdf": {
+      status: 302,
+      destination: "/resume.pdf",
+    },
+  },
 });
