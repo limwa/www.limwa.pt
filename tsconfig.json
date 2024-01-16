@@ -9,5 +9,8 @@
       "@/*": ["*"],
     }
   },
-  "include": ["src/**/*.astro"]
+  "include": [
+    "src/**/*.astro",
+    ".astro/types.d.ts"
+  ]
 }
