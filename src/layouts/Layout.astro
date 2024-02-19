@@ -1,5 +1,6 @@
 ---
 import Footer from '@/components/Footer.astro';
+import { InteractiveBackground } from '@/components/background/InteractiveBackground';
 import '@/styles/globals.css';
 
 interface Props {
@@ -26,6 +27,7 @@ const title = titlePrefix
 		<title>{title}</title>
 	</head>
 	<body class="min-h-dvh flex flex-col bg-gradient-to-br from-slate-950 to-slate-800 text-slate-100">
+		<InteractiveBackground client:only />
 		<div class="flex-grow grid grid-cols-1 grid-rows-1">
 			<slot />
 		</div>
