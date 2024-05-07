@@ -23,6 +23,12 @@ dependencies:
   '@astrojs/tailwind':
     specifier: ^5.1.0
     version: 5.1.0(astro@4.4.0)(tailwindcss@3.4.1)
+  '@fontsource-variable/noto-serif':
+    specifier: ^5.0.4
+    version: 5.0.4
+  '@fontsource/merriweather':
+    specifier: ^5.0.8
+    version: 5.0.8
   astro:
     specifier: ^4.4.0
     version: 4.4.0(typescript@5.3.3)
@@ -1034,6 +1040,14 @@ packages:
   /@fastify/busboy@2.1.0:
     resolution: {integrity: sha512-+KpH+QxZU7O4675t3mnkQKcZZg56u+K/Ct2K+N2AZYNVK8kyeo/bI18tI8aPm3tvNNRyTWfj6s5tnGNlcbQRsA==}
     engines: {node: '>=14'}
+
+  /@fontsource-variable/noto-serif@5.0.4:
+    resolution: {integrity: sha512-Rd6Btat1WwwJn8UTRdRIWaqPdAKWlkXc/QAJW48HG2zEjg3Kl5tFJYLBZ9SYLgJpSIaTO7urs0diKIJdWX64PA==}
+    dev: false
+
+  /@fontsource/merriweather@5.0.8:
+    resolution: {integrity: sha512-4vvR6psdKcGzaFCQL8fGCqMI/mOLKD+mhmUe3iQilx/4VFkIcF7wswWHZ7KCPeF24edX8yd0QXX0DQ1CenMrYA==}
+    dev: false
 
   /@iarna/toml@2.2.5:
     resolution: {integrity: sha512-trnsAYxU3xnS1gPHPyU961coFyLkh4gAD/0zQ5mymY4yOZ+CYvsPqUbOFSw0aDM4y0tV7tiFxL/1XfXPNC6IPg==}

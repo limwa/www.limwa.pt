@@ -17,6 +17,8 @@
     "@astrojs/sitemap": "^3.0.5",
     "@astrojs/solid-js": "^4.0.1",
     "@astrojs/tailwind": "^5.1.0",
+    "@fontsource-variable/noto-serif": "^5.0.4",
+    "@fontsource/merriweather": "^5.0.8",
     "astro": "^4.4.0",
     "astro-robots-txt": "^1.0.0",
     "lucide-astro": "^0.330.0",

@@ -1,0 +1,31 @@
+---
+import "@fontsource-variable/noto-serif";
+import NewLayout from "../layouts/NewLayout.astro";
+
+---
+<NewLayout
+    description=""
+>
+    <div class="min-h-dvh grid grid-cols-2 grid-rows-[1fr,1fr] items-center">
+        
+        <header class="bg-white text-black font-serif px-16 mx-auto">
+            <h1 class="text-8xl font-light">
+                André{' '}
+                <span class="relative">
+                    Lima{' '}
+                    <span class="motion-reduce:hidden w-[1ch] h-1.5 absolute bg-black left-full bottom-6 translate-x-4 animate-typewriter"></span>
+                </span>
+            </h1>
+            <p class="mt-16 max-w-[60ch] text-pretty text-2xl">
+                I'm a curious and open-minded person who loves{' '}
+                solving problems and learning new things.
+            </p>
+        </header>
+        <nav class="bg-zinc-800 h-full px-16">
+            Navigation
+        </nav>
+        <main class="col-span-2 h-full bg-emerald-100">
+
+        </main>
+    </div>
+</NewLayout>
